@@ -1,0 +1,23 @@
+using System;
+
+namespace testeDeMesa_
+{
+internal class Program
+{
+static void Main(string[] args)
+{
+
+        int[] v = new int[30];
+        int a = 7;
+        int b = a - 6;
+        while (b < a)
+        { 
+            Console.WriteLine(b);
+            v[b] = b + a;
+            b = b + 2;
+           
+         }
+
+    }
+}
+}
