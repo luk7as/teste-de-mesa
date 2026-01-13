@@ -1,0 +1,25 @@
+using System;
+
+namespace testeDeMesa_2
+{
+internal class Program
+{
+static void Main(string[] args)
+{
+
+        int[] v = new int[100];
+        int a = 2;
+        while (a < 6)
+        {
+            v[a] = 10 * a;
+            a++;
+        }
+
+        for (int i = 2; i < 6; i++)
+        {
+            Console.WriteLine(v[i]);
+        }
+
+    }
+}
+}
